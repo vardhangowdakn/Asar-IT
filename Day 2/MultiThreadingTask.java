@@ -19,7 +19,7 @@ class VirusScanner implements Runnable {
         try {
             for (int i = 1; i <= 3; i++) {
                 System.out.println("Scanning file " + i);
-                Thread.sleep(1500); // simulate scanning delay
+                Thread.sleep(1500); 
             }
         } catch (InterruptedException e) {
             System.out.println("Scan interrupted.");
